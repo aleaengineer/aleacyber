@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Background Shield -->
+  <path d="M256 16C116.4 16 8 124.4 8 264v128c0 44.2 35.8 80 80 80h336c44.2 0 80-35.8 80-80V264C504 124.4 395.6 16 256 16z" fill="#1e2040"/>
+  
+  <!-- Inner Shield -->
+  <path d="M256 56c-115.3 0-208 92.7-208 208v88c0 22.1 17.9 40 40 40h336c22.1 0 40-17.9 40-40v-88c0-115.3-92.7-208-208-208z" fill="#2b2f77"/>
+  
+  <!-- A Letter -->
+  <path d="M213.5 148L144 364h48l14-44h100l14 44h48l-69.5-216h-85zm42.5 64l30 96h-60l30-96z" fill="#4e54ff"/>
+  
+  <!-- Lock Symbol -->
+  <g fill="#00e5ff">
+    <path d="M256 216c-22.1 0-40 17.9-40 40v32h80v-32c0-22.1-17.9-40-40-40zm0 16c13.3 0 24 10.7 24 24v16h-48v-16c0-13.3 10.7-24 24-24z"/>
+    <path d="M216 288v80c0 22.1 17.9 40 40 40s40-17.9 40-40v-80h-80zm40 88c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8z"/>
+  </g>
+  
+  <!-- Digital Circuit Lines -->
+  <g stroke="#4e54ff" stroke-width="4" fill="none">
+    <path d="M96 256h32M384 256h32M256 384v32M256 96v32" stroke-linecap="round"/>
+    <path d="M160 160l24 24M328 160l-24 24M160 352l24-24M328 352l-24-24" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Glow Effect -->
+  <circle cx="256" cy="256" r="180" fill="url(#glow)" opacity="0.2"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <radialGradient id="glow" cx="256" cy="256" r="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#4e54ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="lockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2a4a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6e3bce;stop-opacity:1" />
+    </linearGradient>
+    <filter id="lockGlow" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <rect x="30" y="50" width="40" height="30" rx="3" fill="url(#lockGradient)" stroke="#00f7ff" stroke-width="2" filter="url(#lockGlow)"/>
+  <path d="M35,50 V35 C35,25 45,20 50,20 C55,20 65,25 65,35 V50" fill="none" stroke="#00f7ff" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Binary code inside lock -->
+  <text x="50" y="70" font-family="monospace" font-size="8" fill="#00f7ff" text-anchor="middle" filter="url(#lockGlow)">1011</text>
+  <text x="50" y="80" font-family="monospace" font-size="8" fill="#00f7ff" text-anchor="middle" filter="url(#lockGlow)">0101</text>
+</svg>
